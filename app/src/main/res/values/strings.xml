@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">ToDoList</string>
+    <string name="edit_text">edit</string>
+    <string name="deadline_date_text">deadline(YYYY/MM/DD)</string>
+    <string name="description_text">description</string>
+    <string name="name_text">name</string>
+    <string name="complete_text">Complete</string>
+    <string name="cancel_text">Cancel</string>
+    <string name="timelimit_text">timelimit(HH:MM)</string>
 </resources>
