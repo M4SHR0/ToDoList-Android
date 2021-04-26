@@ -2,7 +2,6 @@ package com.example.m4shr0.todolist
 
 import android.content.Intent
 import android.os.Bundle
-import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import com.example.m4shr0.todolist.databinding.ActivityEditBinding
 
@@ -13,17 +12,14 @@ class EditActivity : AppCompatActivity() {
         binding = ActivityEditBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.completeBtn.setOnClickListener { _ ->
+        binding.completeBtn.setOnClickListener {
             val intent = Intent(this,MainActivity::class.java)
             startActivity(intent)
         }
-        binding.cancelBtn.setOnClickListener { _ ->
+        binding.cancelBtn.setOnClickListener {
             val intent = Intent(this,MainActivity::class.java)
             startActivity(intent)
         }
     }
 
-    override fun onDestroy() {
-        super.onDestroy()
-    }
 }
